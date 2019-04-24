@@ -1,0 +1,14 @@
+.logo {
+    position: fixed;
+    height: 233px;
+    margin-top: 89px;
+}
+
+li {
+    display: inline;
+    font-family: arial,sans-serif;
+    color: black;
+    font-size: 13px;
+    margin: 7px 0 0 10px;
+    opacity: 0.75;
+  }
