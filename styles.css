@@ -1,7 +1,13 @@
 .logo {
-    position: fixed;
+    position: absolute;
     height: 233px;
     margin-top: 89px;
+    padding-top: 109px;
+    display: block;    
+}
+
+.leftnav {
+    position: absolute;
 }
 
 li {
@@ -12,3 +18,18 @@ li {
     margin: 7px 0 0 10px;
     opacity: 0.75;
   }
+
+.searchbox {
+    position: relative;
+    top: 311px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type=text] {
+    width: 582px;
+    border-radius: 24px;
+    height: 44px;
+    border: 1px solid #dfe1e5;
+}
