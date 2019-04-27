@@ -1,35 +1,116 @@
-.logo {
-    position: absolute;
-    height: 233px;
-    margin-top: 89px;
-    padding-top: 109px;
-    display: block;    
+body {
+  margin: 0;
 }
 
-.leftnav {
-    position: absolute;
+.boxes {
+  height: 25px;
+  padding-right: 15px;
+  margin-top: -5px;
 }
 
-li {
-    display: inline;
-    font-family: arial,sans-serif;
-    color: black;
-    font-size: 13px;
-    margin: 7px 0 0 10px;
-    opacity: 0.75;
-  }
+.navbar {
+  padding: 10px 15px 0 15px;
+}
+
+.navbar a {
+  text-align: center;
+  float: left;
+  font-family: arial,sans-serif;
+  color: black;
+  font-size: 13px;
+  margin: 7px 0 0 10px;
+  opacity: 0.75;
+}
+
+.navright {
+  float: right;
+  margin: 7px 10px 0 0;
+}
+
+a {
+  color:black
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+.signinbutton {
+  border: 1px solid #4285f4;
+  font-weight: bold;
+  display: inline-block;
+  line-height: 28px;
+  padding: 0 12px;
+  border-radius: 2px;
+  background-color: #4285f4;
+  color: white;
+}
 
 .searchbox {
     position: relative;
-    top: 311px;
+    top: 40px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 input[type=text] {
-    width: 582px;
-    border-radius: 24px;
-    height: 44px;
-    border: 1px solid #dfe1e5;
+  position: relative;
+  width: 482px;
+  border-radius: 24px;
+  height: 44px;
+  border: 1px solid #dfe1e5;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: arial,sans-serif;
+  background-color: white;
+  text-align: center;
+}
+
+.lowbutton {
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  color: #5F6368;
+  cursor: pointer;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  min-width: 54px;
+  padding: 0 16px;
+  text-align: center;
+  height: 36px;
+}
+
+.lowbutton:hover {
+  color: #222;
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+.bottombuttons {
+  position: relative;
+  text-align: center;
+  height: 70px;
+  top: 18px;
+}
+
+.logo {
+  position: relative;
+  text-align: center;
+  padding: 188px 0 20px 0;
 }
